@@ -1,0 +1,54 @@
+{
+	"geode": "6.0.0-beta.2",
+	"gd": {
+		"win": "2.2091",
+		"mac": "2.2091"
+	},
+	"id": "naxrin.onekey_fullscreen",
+	"name": "Monitor Thingy",
+	"version": "v5.0.1",
+	"developer": "Naxrin",
+	"description": "For those who can afford more monitors.",
+	"settings": {
+		"switch-monitor": {
+			"type": "keybind",
+			"name": "Switch Monitor",
+			"description": "Press this key while the game is running to move it to the next monitor.",
+			"default": "F9",
+			"category": "universal"
+		},
+		"toggle-borderless": {
+			"type": "keybind",
+			"name": "Toggle Borderless Fullscreen",
+			"description": "Press this key to switch between borderless fullscreen and windowed mode.",
+			"default": "F8",
+			"category": "universal"
+		},
+		"move-windowed": {
+			"type": "bool",
+			"name": "Move Windowed Game",
+			"description": "Also switch monitors when the game is not in fullscreen mode.",
+			"default": true
+		},
+		"remember-monitor": {
+			"type": "bool",
+			"name": "Remember Monitor",
+			"description": "Remember the selected monitor and return to it after toggling fullscreen or restarting the game.",
+			"default": true
+		},
+		"show-notification": {
+			"type": "bool",
+			"name": "Show Notification",
+			"description": "Show a short notification when the monitor has been switched.",
+			"default": true
+		},
+		"switch-now": {
+			"type": "button",
+			"name": "Test Switch",
+			"description": "Switch to the next monitor right now.",
+			"buttons": {
+				"switch": "Switch Monitor Now"
+			}
+		}
+	}
+}
